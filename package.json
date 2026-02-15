@@ -1,16 +1,19 @@
 {
-  "name": "central-hex",
-  "version": "1.0.0",
-  "description": "WhatsApp Bot CENTRAL-HEX",
-  "main": "index.js",
+  "name": "central-hex-bot",
+  "version": "2.0.0",
+  "description": "IB_HEX_BOT - WhatsApp bot (Baileys) FR, prefix Ib, mode privé, QR Web, 200 commandes exact",
+  "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.0.0"
+    "@whiskeysockets/baileys": "^7.0.0",
+    "express": "^4.19.2",
+    "pino": "^9.3.2",
+    "qrcode": "^1.5.4"
   }
 }
