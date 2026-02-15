@@ -1,0 +1,31 @@
+{
+  "name": "ib-hex-bot",
+  "version": "2.0.0",
+  "description": "Bot WhatsApp IB-HEX-BOT avec 200 commandes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "ib-hex"
+  ],
+  "author": "Ibrahima Sory Sacko",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "pino": "^8.19.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
