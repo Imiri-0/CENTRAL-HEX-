@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IB_HEX_BOT - QR</title>
+  <style>
+    body{font-family:Arial, sans-serif;background:#0b1220;color:#e8eefc;margin:0;padding:24px}
+    .card{max-width:720px;margin:0 auto;background:#101a33;border:1px solid #24335f;border-radius:14px;padding:20px}
+    h1{margin:0 0 8px 0;font-size:20px}
+    .row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+    .qr{width:320px;height:320px;background:#0b1220;border:1px dashed #3a4b82;border-radius:12px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    img{max-width:100%}
+    .muted{opacity:.85}
+    .status{margin-top:10px;padding:10px;border-radius:10px;background:#0b1220;border:1px solid #24335f}
+    code{background:#0b1220;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>IB_HEX_BOT — Connexion WhatsApp</h1>
+    <div class="muted">Scanne le QR avec WhatsApp &gt; Appareils connectés.</div>
+
+    <div class="row" style="margin-top:16px">
+      <div class="qr"><span>Chargement du QR…</span></div>
+      <div style="flex:1;min-width:260px">
+        <div class="status" id="status">Statut: ...</div>
+        <p class="muted">
+          Préfixe obligatoire: <code>Ib</code><br/>
+          Exemple: <code>Ibmenu</code>, <code>Ibping</code>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/client.js"></script>
+</body>
+</html>
+
